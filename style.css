@@ -1,0 +1,35 @@
+/*
+ Theme Name:   Astra
+ Theme URI:    https://work.wpbestportfoliotheme.top/
+ Description:  Astra Child Theme for custom modifications.
+ Author:       Nayan Ray
+ Author URI:   https://dev-nayanray.github.io/
+ Template:     astra
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, responsive, customizable, blog
+ Text Domain:  astra-child
+*/
+
+/* Add your custom CSS here */
+
+/* Example: Custom styles for the post filter widget */
+.widget_post_filter_widget select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.widget_post_filter_widget button {
+    background-color: #0073aa;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.widget_post_filter_widget button:hover {
+    background-color: #005a8e;
+}
